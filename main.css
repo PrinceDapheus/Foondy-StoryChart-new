@@ -364,7 +364,64 @@ th {
 
 #Al-h1-lessonplans {
   color: white;
+  font-family: 'arial', calibra;
+  text-align:center;
+  margin-bottom: 2px;
 }
+
+#Al-h3-lessonplans {
+  color: white;
+  font-family: 'arial', calibra;
+  font-weight: 900;
+  font-size: 1.5em;
+  text-align:center;
+  margin-top: -2px;
+
+}
+
+.Allessonplan-body , ul , li , a {
+  margin:0 0 0 0;
+  padding:0 0 0 0;
+}
+
+#Allessonplan-navmenu, .Allessonplan-sub2,  .Allessonplan-sub1 {
+  list-style-type: none;
+
+}
+
+
+li {
+  list-style-type: none;
+  outline: 2px solid red
+}
+
+
+ #Allessonplan-navmenu li {
+
+  width:125px;
+  text-align: center;
+  position: relative;
+  float:left;
+  margin-right:10px;
+  margin-top: 2.5px;
+  font-family: 'arial';
+
+}
+
+
+ #Allessonplan-navmenu a {
+  display: block;
+  text-decoration: none;
+  width: 120px;
+  height: 25px;
+  line-height: 25px;
+  background-color: #7695b7;
+  border-radius: 5px;
+  color: white;
+
+}
+
+
 
 
 /***************************
