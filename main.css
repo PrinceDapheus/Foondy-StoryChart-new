@@ -392,7 +392,7 @@ th {
 
 li {
   list-style-type: none;
-  outline: 2px solid red
+
 }
 
 
@@ -405,9 +405,12 @@ li {
   margin-right:10px;
   margin-top: 2.5px;
   font-family: 'arial';
+  font-size: 0.9em;
 
 }
+ #Allessonplan-navmenu li {
 
+ }
 
  #Allessonplan-navmenu a {
   display: block;
@@ -421,8 +424,56 @@ li {
 
 }
 
+ul#Allessonplan-navmenu .Allessonplan-sub1 a {
+  margin: 1px;
+}
 
 
+ul#Allessonplan-navmenu .Allessonplan-sub2 li {
+  margin-left: 50px;
+}
+
+ul#Allessonplan-navmenu li:hover > a {
+  background-color:rgba(243, 211, 54, 0.62);
+}
+
+ul#Allessonplan-navmenu li:hover  a:hover {
+  background-color: #FFC107;
+}
+
+ul#Allessonplan-navmenu ul.Allessonplan-sub1 {
+  display:none;
+  position: absolute;
+  top: 25px;
+  left: 0px;
+}
+
+ul#Allessonplan-navmenu ul.Allessonplan-sub2 {
+  display:none;
+  position:absolute;
+  top: -2px;
+  left: 73px;
+
+}
+
+ul#Allessonplan-navmenu li:hover .Allessonplan-sub1 {
+  display:block;
+
+}
+
+ul#Allessonplan-navmenu .Allessonplan-sub1 li:hover .Allessonplan-sub2 {
+  display:block;
+
+}
+
+.Allessonplan-body {
+  position:relative;
+  left: 50%;
+  bottom:-30px;
+  margin-left: -250px;
+
+}
+*/
 
 /***************************
 BARON ZERO SERIES
